@@ -2,8 +2,8 @@
 # check=error=true
 
 # This Dockerfile is designed for production, not development. Use with Kamal or build'n'run by hand:
-# docker build -t rubyadder .
-# docker run -d -p 80:80 -e RAILS_MASTER_KEY=<value from config/master.key> --name rubyadder rubyadder
+# docker build -t ruby_adder .
+# docker run -d -p 80:80 -e RAILS_MASTER_KEY=<value from config/master.key> --name ruby_adder ruby_adder
 
 # For a containerized dev environment, see Dev Containers: https://guides.rubyonrails.org/getting_started_with_devcontainer.html
 
